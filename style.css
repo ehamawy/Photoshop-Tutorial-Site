@@ -14,7 +14,7 @@ h2 {
 }
 p {
     padding-left: 28px;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 body {
   font-family: Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -78,4 +78,8 @@ body {
     color:#2d7fa9;
     font-style: italic;
     text-decoration: underline;
+}
+
+.image_placeholder {
+    padding-left: 10%;
 }

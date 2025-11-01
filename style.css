@@ -57,6 +57,13 @@ body {
     text-align: center;
     width: 100%;
   }
+
+  .column.left,
+  .column.right {
+    float: none !important;
+    width: 100% !important;
+    display: block;
+  }
 }
 
 .column {
@@ -83,3 +90,18 @@ body {
 .image_placeholder {
     padding-left: 10%;
 }
+
+.footer {
+  padding: 20px;
+  text-align: right;
+  background: #ddd;
+  margin-top: 20px;
+  clear: both;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+

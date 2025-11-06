@@ -39,7 +39,7 @@ body {
     color: #34baff;
 }
 
-/* Mobile responsive styles */
+/* MOBILE RESIZING */
 @media screen and (max-width: 1000px) {
   body > a {
     display: block;

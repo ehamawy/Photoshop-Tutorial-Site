@@ -23,6 +23,7 @@ p {
 body {
   font-family: Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: bold;
+  overflow-x: hidden;
 }
 .topnav {
   background-color: #34baff;
@@ -187,5 +188,62 @@ body {
     margin: 0;
     padding: 0;
     font-weight: normal;
+}
+
+
+/* FOR DA TOOLS AND SHORTCUTS PAGE */
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f1f1f1;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.row .text {
+    flex: 1;
+    min-width: 0;
+}
+
+.row .image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+        gap: 0;
+        overflow-x: hidden;
+    }
+
+    .row .text {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .row .image {
+        width: 100%;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+
+    .row .image img {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
 }
 

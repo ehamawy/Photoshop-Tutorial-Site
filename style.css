@@ -1,3 +1,5 @@
+/* without this the browser would add default margin and padding amounts to all elements
+it was inconsistent between browsers */
 * {
   margin: 0;
   padding: 0;
@@ -45,22 +47,27 @@ body {
     color: #34baff;
 }
 
-/* Dropdown container */
+
+
+
+
+/* DROPDOWN STUFF */
+
+
+
 .dropdown {
   float: left;
   overflow: visible;
   position: relative;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
+.dropdown .dropdown_button {
   border: none;
   outline: none;
   background-color: inherit;
   cursor: pointer;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -72,7 +79,6 @@ body {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: #002142;
@@ -83,18 +89,21 @@ body {
   transition: color 0.5s, background-color 0.5s;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #002142;
   color: #34baff;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* MOBILE RESIZING */
+
+
+
+/* MOBILE RESIZINGGGGG */
+
+
 @media screen and (max-width: 1000px) {
   body > a {
     display: block;

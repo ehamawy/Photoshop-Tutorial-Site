@@ -9,9 +9,7 @@ I planned to add way more videos and concepts, but I ran out of time. I may retu
 ## Attribution
 
 Most images and videos made by me.
-
 I'm sorry if there is artifacting/visual glitches in the gifs. I don't have the time to scale them properly.
-
 The Adobe Photoshop Logo is owned by Adobe.
-
 All other images are from Attribution free Stock Photo Libraries.
+This repo is closed source
